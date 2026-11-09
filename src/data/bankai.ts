@@ -1,4 +1,4 @@
-export type Behaviour = 'petals' | 'frost' | 'ash' | 'tendrils' | 'threads' | 'bloom';
+export type Behavior = 'petals' | 'frost' | 'ash' | 'tendrils' | 'threads' | 'bloom';
 
 export type Bankai = {
     id: string;
@@ -8,7 +8,7 @@ export type Bankai = {
     bankai: {jp: string, en: string; romaji: string};
     lore: string;
     accent: string;
-    behavior: Behaviour;
+    behavior: Behavior;
     tone: {freq: number; filter: number; dur: number};
     stats: {attack: number; speed: number; range: number; reiatsu: number};
 };
